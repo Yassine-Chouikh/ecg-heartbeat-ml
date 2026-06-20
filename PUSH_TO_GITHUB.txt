@@ -1,0 +1,21 @@
+Push this project to your GitHub:
+
+1. Create a NEW, EMPTY repo on github.com named:  ecg-heartbeat-ml
+   (do NOT add a README, .gitignore, or license there)
+
+2. From inside this folder in a terminal:
+     git init
+     git add -A
+     git commit -m "ECG heartbeat classification: calibrated, interpretable ML pipeline"
+     git branch -M main
+     git remote add origin https://github.com/<YOUR_USERNAME>/ecg-heartbeat-ml.git
+     git push -u origin main
+
+3. In README.md, replace YOURUSERNAME in the CI badge line with your GitHub username.
+
+4. (Recommended) Re-run on a networked machine to use the REAL ECG5000 dataset:
+     pip install -r requirements.txt && python scripts/run.py
+   Then commit the refreshed results/ so the README shows real-data numbers.
+
+Make it yours: read pipeline.py end to end, try other architectures/thresholds,
+and add the real-ECG5000 results so you can speak to every line in an interview.

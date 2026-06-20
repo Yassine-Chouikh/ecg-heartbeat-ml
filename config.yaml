@@ -1,0 +1,14 @@
+seed: 42
+data:
+  url: "http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv"
+  cache: "data/ecg.csv"
+  test_size: 0.2
+  val_size: 0.2
+model:
+  hidden_layers: [128, 64]
+  alpha: 0.0005
+  batch_size: 64
+  lr: 0.001
+  max_iter: 300
+  patience: 12
+  gb_max_depth: 3

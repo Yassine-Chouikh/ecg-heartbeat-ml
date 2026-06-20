@@ -1,0 +1,22 @@
+{
+  "auroc": 0.9700163241789898,
+  "auprc": 0.9747486998427473,
+  "f1": 0.9009193054136875,
+  "accuracy": 0.903,
+  "brier": 0.06752448979121578,
+  "ece": 0.03493408219143748,
+  "best_model": "neural_net (MLP)",
+  "val_auroc_best": 0.9602,
+  "leaderboard": {
+    "neural_net (MLP)": {
+      "val_auroc": 0.9602
+    },
+    "gradient_boosting": {
+      "val_auroc": 0.9341
+    }
+  },
+  "data_source": "synthetic ECG benchmark (no network: HTTPError)",
+  "n_samples": 5000,
+  "n_test": 1000,
+  "prevalence_abnormal": 0.4922
+}

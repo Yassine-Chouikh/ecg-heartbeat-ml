@@ -5,7 +5,7 @@ traces as **normal vs. abnormal**, with rigorous evaluation, probability
 calibration, and signal-level interpretability. Built as a compact, honest
 demonstration of responsible ML for physiological signals.
 
-![CI](https://github.com/YOURUSERNAME/ecg-heartbeat-ml/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Yassine-Chouikh/ecg-heartbeat-ml/actions/workflows/ci.yml/badge.svg)
 
 ## Why this project
 
